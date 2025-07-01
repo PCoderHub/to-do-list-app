@@ -34,7 +34,7 @@ toDoForm.addEventListener("submit", (event) => {
   taskInput.value = "";
 });
 
-// To delete <li> element on click
+// To delete the last <li> element on click
 deleteTaskButton.addEventListener("click", () => {
   if (taskList.hasChildNodes()) {
     let taskListLength = taskList.children.length;
